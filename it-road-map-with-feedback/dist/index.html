@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - IT Road Map With FeedBack</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Roadmap & Feedback</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>IT Roadmap</h1>
+        <p>Here's the current IT roadmap:</p>
+        <ul>
+            <li>Upgrade server hardware</li>
+            <li>Implement multi-factor authentication</li>
+            <li>Develop mobile app for customer access</li>
+            <li>Integrate CRM system with ERP</li>
+            <li>Enhance data backup and recovery procedures</li>
+        </ul>
+
+        <button id="showFeedbackFormBtn">Provide Feedback</button>
+
+        <div id="feedbackFormContainer" style="display: none;">
+            <h2>Feedback</h2>
+            <p>Please provide your feedback on the IT roadmap:</p>
+            
+            <form id="feedbackForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div id="feedbackListContainer" style="display: none;">
+            <h2>Feedback</h2>
+            <!-- Feedback list will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

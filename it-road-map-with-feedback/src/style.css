@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4 {
+    color: #798071;
+}
+
+.year {
+    margin-top: 20px;
+}
+
+.objective {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: disc;
+}
